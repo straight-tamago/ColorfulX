@@ -44,10 +44,10 @@ public struct AnimatedMulticolorGradientViewRepresentable {
         }
 
         public func updateUIView(_ uiView: AnimatedMulticolorGradientView, context _: Context) {
-            uiView.setColors(color, interpolationEnabled: transitionDuration > 0)
-            uiView.speed = speed
-            uiView.noise = noise
-            uiView.transitionDuration = transitionDuration
+            // uiView.setColors(color, interpolationEnabled: transitionDuration > 0)
+            // uiView.speed = speed
+            // uiView.noise = noise
+            // uiView.transitionDuration = transitionDuration
         }
     }
 #else
