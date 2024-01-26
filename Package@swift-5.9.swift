@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "ColorfulX", targets: ["ColorfulX"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Lakr233/SpringInterpolation.git", from: "1.1.2"),
+        .package(url: "https://github.com/straight-tamago/SpringInterpolation.git", from: "1.1.2"),
     ],
     targets: [
         .target(
