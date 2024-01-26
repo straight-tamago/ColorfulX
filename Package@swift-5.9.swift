@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
     name: "ColorfulX",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v13),
         .macOS(.v11),
         .macCatalyst(.v14),
-        .tvOS(.v14),
+        .tvOS(.v13),
         .visionOS(.v1),
     ],
     products: [
